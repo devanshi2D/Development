@@ -1,0 +1,38 @@
+body {
+	background-color: #F0ffff;
+	font-color: black;
+}
+
+header li {
+		list-style: none;
+		margin: 0;
+		padding: 30px;
+		display: inline-block;
+		border: 1px solid blue;
+		background-color: #FFEBCD;
+
+	}
+a:link, a:visited {
+	text-decoration: none;
+	text-align: center;
+	font-color: blue;
+	font-style: italic;
+	float: left;
+}
+a:hover{
+	background-color:#F08080;
+	padding-right:10px; 
+	display: inline-block;
+	order: 1px solid blue;
+
+}
+	h3{
+		font-size: 20px;
+  font-weight: bold;
+  background-color:pink;
+  opacity: .6;
+	}
+	ul{
+		background-color: LavenderBLush;
+		font-size: 15px;
+	}
