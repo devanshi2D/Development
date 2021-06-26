@@ -3,33 +3,34 @@ body {
 	font-color: black;
 }
 
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E6E6FA;
+}
+
 header li {
-		list-style: none;
-		margin: 0;
-		padding: 30px;
-		display: inline-block;
-		border: 1px solid blue;
-		background-color: #FFEBCD;
-
-	}
-a:link, a:visited {
-	text-decoration: none;
-	text-align: center;
-	font-color: blue;
-	font-style: italic;
-	float: left;
+  float: left;
 }
-a:hover{
-	background-color:#F08080;
-	padding-right:10px; 
-	display: inline-block;
-	order: 1px solid blue;
 
+li a {
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-	h3{
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ADD8E6;
+}
+h3{
 		font-size: 20px;
   font-weight: bold;
-  background-color:pink;
+  background-color:LawnGreen;
   opacity: .6;
 	}
 	ul{
